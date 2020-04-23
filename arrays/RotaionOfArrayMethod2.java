@@ -1,5 +1,5 @@
 package arrays;
-import  java.util.*;                     //MY METHOD
+import  java.util.*;                     //MY METHOD OF ROTATION OF ARRAYS, BUT GREATER TIME COMPLEXITY 
 public class RotaionOfArrayMethod2 {
 
 	public static void main(String[] args) {
