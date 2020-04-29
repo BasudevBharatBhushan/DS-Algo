@@ -4,14 +4,18 @@ public class MainLinkedList2 {
 
 	public static void main(String[] args) throws Exception {
 		
-//		MyLinkedList myLL = new MyLinkedList();
+		MyLinkedList myLL = new MyLinkedList();
+		
+		myLL.add(12);
+		myLL.add(24);
+	    myLL.add(32);
+	    myLL.add(56);
+	    
+	    myLL.reversalOfLinkedList(myLL.head);
+	    
+	    
 //		
-//		myLL.add(12);
-//		myLL.add(24);
-//	    myLL.add(32);
-//	    myLL.add(56);
-//		
-//		myLL.print();
+		myLL.print();
 //		System.out.println();
 //		
 //		myLL.set(3, 100);
@@ -22,14 +26,14 @@ public class MainLinkedList2 {
 //		myLL.print();
 //		System.out.println();
 //		
-		MyLinkedList2<Integer> myLL2 = new MyLinkedList2<>();   //<GENERICS> is used
-        
-		myLL2.add(12);
-		myLL2.add(70);
-		myLL2.add(43);
-		myLL2.print();
-		int x=myLL2.getLastElement();
-		System.out.println(x);
+//		MyLinkedList2<Integer> myLL2 = new MyLinkedList2<>();   //<GENERICS> is used
+//        
+//		myLL2.add(12);
+//		myLL2.add(70);
+//		myLL2.add(43);
+//		myLL2.print();
+//		int x=myLL2.getLastElement();
+//		System.out.println(x);
 		
 		
 		

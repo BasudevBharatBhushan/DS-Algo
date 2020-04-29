@@ -84,6 +84,17 @@ public class MyLinkedList {
 		    }
 	    }
 	}
+	Node reversalOfLinkedList(Node head) {
+		this.head=head;
+		if(head==null||head.next==null) {
+			return head;
+		}
+		Node remaining =reversalOfLinkedList(head.next);
+		head.next.next=head;
+		head.next=null;
+		return remaining;
+	}
+	
 	
 	static class Node{
 		int data;

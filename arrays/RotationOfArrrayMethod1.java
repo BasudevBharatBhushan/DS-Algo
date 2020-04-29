@@ -1,6 +1,8 @@
 package arrays;
 
-public class RotationOfArrrayMethod1 {                     //Time complexity : O(n * d)
+import java.util.Scanner;
+
+public class RotationOfArrrayMethod1 {                      //Time complexity : O(n * d)
                                                            //	Auxiliary Space : O(1)
 	static void NumberOfRotation(int arr[],int N,int D) {
 		for(int i=0;i<D;i++) {
@@ -10,8 +12,7 @@ public class RotationOfArrrayMethod1 {                     //Time complexity : O
 		
 	}
 	static void RotationOfArray(int arr[],int N){
-		int temp=0;
-		temp=arr[0];
+		int temp=arr[0];
 		for(int i=0;i<N-1;i++) {
 			arr[i]=arr[i+1];
 		}
@@ -25,13 +26,17 @@ public class RotationOfArrrayMethod1 {                     //Time complexity : O
 	 
 
 	public static void main(String[] args) {
-	
-     
-		int arr[]= {1,2,3,4,5};
-		int N=arr.length;
-		int D=2;
-		NumberOfRotation(arr,N,D);
-		PrintArray(arr, N);
+		Scanner sc =new Scanner(System.in);
+	    int T = sc.nextInt();
+	    while(T--!=0) {
+	    	int N = sc.nextInt();
+	    	int arr[]=new int[N];
+	    	int D = sc.nextInt();
+	    	for(int i=0;i<N;i++) {
+	    		arr[i]=sc.nextInt();
+	    	}	
+	    		NumberOfRotation(arr,N,D);
+	    		PrintArray(arr, N);
+	    }	
 	}
-
 }

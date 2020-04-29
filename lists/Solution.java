@@ -6,7 +6,8 @@ import java.util.List;
 public class Solution {
 
 	public static ArrayList<Interval> insert(ArrayList<Interval>intervals, Interval newInterval){  //Return type= ArrayList<Interval>
-
+                                                                                                   //Parameters = ArrrayList<Interval>intervals
+		                                                                                           //             Interval newInterval
 		if(intervals==null) {
 			intervals = new ArrayList<Interval>();
 			intervals.add(newInterval);
@@ -52,6 +53,7 @@ public class Solution {
 		Interval obj1 =new Interval(5,6);
 		Interval obj2 =new Interval(7,9);
 		
+		
 		ArrayList <Interval>currentInterval = new ArrayList<>();
 		currentInterval.add(obj);
 		currentInterval.add(obj1);
@@ -59,11 +61,8 @@ public class Solution {
 		System.out.println(currentInterval);
 		
 		ArrayList<Interval> result = new ArrayList<>();
-		
-		Solution object = new Solution();
-		
-		
-		result =object.insert(currentInterval,obj2);
+				
+		result =insert(currentInterval,obj2);
 		System.out.println(result);
 		
 	}
@@ -71,13 +70,12 @@ public class Solution {
 	}
 
 class Interval{
-	int start;
-	int end;
+	int start,end;
 	
 	Interval(){
 		start =0; end =0;             //constructors
 	}                  
-	Interval(int s, int e){
-		start =s; end =e;
+	Interval(int start, int end){
+		this.start =start; this.end =end;
 	}
 }
