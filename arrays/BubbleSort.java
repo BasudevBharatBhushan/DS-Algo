@@ -14,10 +14,10 @@ for(int i = 0; i<n-1;i++) {
 		if (a[j+1] < a[j]) {
 			
 		
-		//int temp = a[j+1];
-		//a[j+1] = a[j];               //swapping of value using a third variable
-		//a[j] = temp;
-		//here it cannot be done without using temp because if we do so then after a[j+1] =a[j], the value of a[j+1] will be lost from existence so we cannot use 
+	//  int temp = a[j+1];
+	//  a[j+1] = a[j];               //swapping of value using a third variable
+	//  a[j] = temp;
+//here it cannot be done without using temp because if we do so then after a[j+1] =a[j], the value of a[j+1] will be lost from existence so we cannot use 
 	//	a[j] = a[j+1] any further because it will the same value only.
 			
 	
