@@ -11,7 +11,11 @@ public class MainLinkedList2 {
 	    myLL.add(32);
 	    myLL.add(56);
 	    
-	    myLL.reversalOfLinkedList(myLL.head);
+	    System.out.println(myLL.size());
+	    
+	    
+	    //myLL.reversalOfLinkedList(myLL.head);
+	    
 	    
 	    
 //		

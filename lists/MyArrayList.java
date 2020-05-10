@@ -36,6 +36,7 @@ public class MyArrayList {
 	   double t =90.9;   //similarly (int ,Integer)
 	   
 	   
+	   
 	}
 
 }

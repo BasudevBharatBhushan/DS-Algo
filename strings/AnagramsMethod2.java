@@ -1,10 +1,15 @@
 package strings;
 
+import java.util.Scanner;
+
 public class AnagramsMethod2 {
 
 	public static void main(String[] args) {
-		String a = "abb";
-		String b = "bba";
+//		String a = "abb";
+//		String b = "bba";
+		Scanner sc = new Scanner(System.in);
+		String a=sc.next();
+		String b=sc.next();
 		boolean isAnagram = true;
 		
       int al[] = new int[256];

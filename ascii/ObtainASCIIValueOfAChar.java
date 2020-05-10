@@ -10,18 +10,18 @@ public class ObtainASCIIValueOfAChar {
 		
 		//OR
 		
-		int c =(int)'e';
-		System.out.println(c);
-		
-		
-		String s ="Bharat";
-        
-		int y = (int)s.charAt(2);
-		System.out.println(y);
-		
-		s=s.replace('a', 'u');
-		
-		System.out.println(s);
+//		int c =(int)'e';
+//		System.out.println(c);
+//		
+//		
+//		String s ="Bharat";
+//        
+//		int y = (int)s.charAt(2);
+//		System.out.println(y);
+//		
+//		s=s.replace('a', 'u');
+//		
+//		System.out.println(s);
 	}
 
 }

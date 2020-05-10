@@ -18,9 +18,11 @@ public class MainClass {
 		stack.push(24);
 		stack.push(36);
 
-		System.out.println(stack.pop()+" "+stack.peek());
+		//System.out.println(stack.pop()+" "+stack.peek());
 		 
-		
+		stack.remove(2);
+		System.out.println(stack);
+		int sum =0;
 		
 		
 		

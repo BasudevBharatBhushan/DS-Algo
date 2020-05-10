@@ -95,6 +95,17 @@ public class MyLinkedList {
 		return remaining;
 	}
 	
+	int size() {
+		Node temp =head;
+		int curr =0;
+		while(temp!=null) {
+			temp=temp.next;
+			curr++;
+		}
+		
+		return curr;
+	}
+	
 	
 	static class Node{
 		int data;
