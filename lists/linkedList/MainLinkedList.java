@@ -15,8 +15,12 @@ public class MainLinkedList {
 					
 		List<Integer> al =new ArrayList<>();
 		
-		getTimeDifference(al);
-		getTimeDifference(ll);
+//		getTimeDifference(al);
+//		getTimeDifference(ll);
+		
+		
+		
+		
         
 	}
 	//This function is to check the time required for insertion for arrayLists and LinkedList

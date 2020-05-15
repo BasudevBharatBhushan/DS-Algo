@@ -10,7 +10,6 @@ public class MatricsAddition {
 		int rows = sc.nextInt();
 		int colm = sc.nextInt();
 		
-		//2System.out.println("enter array a");
 		
 		int a [][] = new int[rows][colm];
 		int b[][] = new int[rows][colm];

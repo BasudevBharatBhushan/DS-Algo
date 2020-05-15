@@ -4,7 +4,7 @@ public class ObtainASCIIValueOfAChar {
 
 	public static void main(String[] args) {
 	
-		char x ='a';
+		char x =' ';
 		int b = (int)x;
 		System.out.println(b);
 		
@@ -22,6 +22,13 @@ public class ObtainASCIIValueOfAChar {
 //		s=s.replace('a', 'u');
 //		
 //		System.out.println(s);
+		
+//		int REDIX =10;
+//		
+//		int n =1;
+//		
+//		char c = Character.forDigit(n, REDIX);
+//		System.out.println(c);
 	}
 
 }
