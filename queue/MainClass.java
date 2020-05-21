@@ -21,8 +21,11 @@ public class MainClass {
 //		System.out.println(q.remove());
 //		System.out.println(q.poll());
 		
-		System.out.println(q.element());
-
+		//System.out.println(q.element());
+ 
+		//System.out.println(q.removeAll(q));
+		
+		
 	}
 
 }

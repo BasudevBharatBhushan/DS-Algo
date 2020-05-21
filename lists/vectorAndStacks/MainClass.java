@@ -20,10 +20,13 @@ public class MainClass {
 
 		//System.out.println(stack.pop()+" "+stack.peek());
 		 
-		stack.remove(2);
-		System.out.println(stack);
-		int sum =0;
+//		stack.remove(2);
+//		System.out.println(stack);
+//		int sum =0;
 		
+		System.out.println(stack.peek());
+		System.out.println(stack.peek());
+		System.out.println(stack.peek());
 		
 		
 	}

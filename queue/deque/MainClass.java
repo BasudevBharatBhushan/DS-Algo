@@ -9,6 +9,8 @@ public class MainClass {
 		ArrayDeque<Integer> ad=new ArrayDeque<>();
 
 		
+		
+		
 	}
 
 }

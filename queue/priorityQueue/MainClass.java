@@ -26,14 +26,16 @@ public class MainClass {
 		pq1.add(25);
 		pq1.add(50);
 		pq1.add(69);
-		
+		pq1.add(69);
 		System.out.println(pq1);
 		
 		System.out.println(pq1.remove());             //will out in chronological order
 		System.out.println(pq1.remove());
 		System.out.println(pq1.remove());
 		System.out.println(pq1.remove());
-
+		
+		
+	
 	}
 
 }

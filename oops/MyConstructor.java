@@ -13,7 +13,7 @@ class ModernVehicle{
 	String colour;
 	ModernVehicle(int noOfWheels,int engine){   //Parameterized constructor
 		wheels = noOfWheels;
-		headlights = 2;      //as generally there are always two headlights present
+		headlights = 2;      //as generally there are always two head-lights present
 		this.engine = engine;  //"this.variable" keyword is used to keep the state variable and parameter variable same
 	}
 	ModernVehicle(int wheels,String colour){     //constructor overloading
