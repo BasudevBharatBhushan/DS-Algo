@@ -4,7 +4,7 @@ public class ObtainASCIIValueOfAChar {
 
 	public static void main(String[] args) {
 	
-		char x =' ';
+		char x ='2';
 		int b = (int)x;
 		System.out.println(b);
 		

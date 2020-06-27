@@ -1,7 +1,6 @@
-package strings;
+package SubArraysAndSubSequences.strings;
 
 public class ReturnAllTheSubsequencesUsingRecursionMethod {
-
 	public static void main(String[] args) {
 		String str ="xyz";
         String ans[]=findSubSequences(str);

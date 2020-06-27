@@ -24,6 +24,7 @@ public class MainClass {
 		
 		
 		
+		
 		Teacher t1 = new Teacher("");
 		Person p1 = t1;  //Upcasting because a teacher is also a person
 		

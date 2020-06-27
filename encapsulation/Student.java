@@ -1,7 +1,7 @@
 package encapsulation;
 
 public class Student {
-   private int age;                   //we have to keep the variable of the class as private to achieve encapsulation   //private is an access modifier
+   private int age;                   //we have to keep the variable of the class as private to achieve encapsulation   //private is an access modifier  which can be accessed only within a class
    private String name;
 
    public int getAge() {                      
@@ -25,3 +25,13 @@ public class Student {
 
 
 }
+
+
+/*
+ * Key points to be remembered for  ENCAPSULATION
+ * 
+ * Declare the variable of class as private
+ * provide public setter and getter method
+ * setter method --->read the variable value
+ * getter method---> write the variable value
+*/

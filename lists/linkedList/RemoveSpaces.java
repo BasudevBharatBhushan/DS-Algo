@@ -3,7 +3,7 @@ package lists.linkedList;
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-public class RenoveSpaces
+public class RemoveSpaces
  {
      Object []c;
 	public static void main (String[] args)throws Exception
@@ -12,7 +12,7 @@ public class RenoveSpaces
 	     StringBuilder sc = new StringBuilder();
 	     int t = Integer.parseInt(reader.readLine().trim());
 	     while(t-->0){
-	         RenoveSpaces obj=new RenoveSpaces();
+	         RemoveSpaces obj=new RemoveSpaces();
 	         String s = reader.readLine();
 	         List <Character> list = new LinkedList();
 	         for(int i=0,z=0;i<s.length();i++){

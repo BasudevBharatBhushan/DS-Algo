@@ -9,6 +9,8 @@ public class MultiDimensionalArray {
 		              {4,5,6}, 
 		              {7,8,9}};
 
+		
+		
 		print2D(mat);
 		System.out.println();
 		printInMatrixStyle(mat);
@@ -20,6 +22,7 @@ public class MultiDimensionalArray {
 			for(int j=0;j<mat[i].length;j++) {
 				System.out.print(mat[i][j]+" ");
 			}
+			System.out.println();
 		}
 	}
 	

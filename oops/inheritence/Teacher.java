@@ -19,5 +19,8 @@ public class Teacher extends Person {  //(children) extends (parents)
 	public void running() {
 		super.running();  //super keyword is used to get a immediate reference from parent class
 		System.out.println("teacher is running");
+		/*
+		 * Basically the the super keyword , will implement the parent method as well as the overridden method 
+		 */
 	}
 }

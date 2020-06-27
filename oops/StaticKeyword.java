@@ -35,7 +35,7 @@ public class StaticKeyword {
 		
 		
 		//Example of Non-STATIC Class
-		B objB = objA.new B(); //object of B made by importing "Opps.A.B"
+		B objB = objA.new B(); //object of B made by importing "oops.A.B"
 		       //OR
 		//A.B objB = objA.new B();    //object of B can also be made like this without importing "Opps.A.B"
 		

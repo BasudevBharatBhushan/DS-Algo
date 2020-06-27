@@ -1,11 +1,13 @@
-package lists.sets;
+package SubArraysAndSubSequences.arrays;
 
-import java.util.*;
+import java.util.HashSet;
 import java.util.Set;
 
-public class SubArrayWithKSum {
+public class Check_if_SubArray_with_K_Sum_exist {
 
 	public static void main(String[] args) {
+
+
 		int []a= {5,2,1,-3,4,2};
 		int k=3;
         boolean found =false;
@@ -25,11 +27,7 @@ public class SubArrayWithKSum {
 			
 		}
 		System.out.println("found "+found);
-		
-		
-		
-		//we are looking for sum -k = value present in set........because sum-value=k , which is our main objective to find k value 
-          
+
 	}
 
 }

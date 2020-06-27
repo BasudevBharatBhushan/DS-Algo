@@ -10,7 +10,7 @@ public class CheckForBalancedString {
 		Scanner sc=new Scanner(System.in);
 		int testCases=sc.nextInt();
 	    sc.nextLine();
-		while(testCases--!=0) {   //OR  //testCases--!=0
+		while(testCases-->0) {   //OR  //testCases--!=0
 			String s =sc.nextLine();
 			Stack<Character> stack=new Stack<>();
 			boolean isBalanced=true;

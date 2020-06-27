@@ -6,16 +6,19 @@ public class SumOfAllSubSequencesOfANumber {
 		String str ="123";
 		int sumOfAlltheSubSequences=0;
         String ans[]=findSubSequences(str);
+        for(String e:ans) {
+        	System.out.println(e);
+        }
         for(int i=0;i<ans.length;i++) {
         	if(i<ans.length-1) {
-        	int sum=0;int n =Integer.parseInt(ans[i+1]);
-        	while(n!=0) {
-        		sum=sum+(n%10);
-        		n/=10;
+	        	int sum=0;int n =Integer.parseInt(ans[i+1]);
+	        	while(n!=0) {
+	        		sum=sum+(n%10);
+	        		n/=10;
             }
         	sumOfAlltheSubSequences=sumOfAlltheSubSequences+sum;
         	}
-       }
+        }
         System.out.println(sumOfAlltheSubSequences);
 
 	}
@@ -36,6 +39,6 @@ public class SumOfAllSubSequencesOfANumber {
 			ans[i+smallAns.length]=str.charAt(0)+smallAns[i];
 		}
 		return ans;
-	}
+	}   
 
 }

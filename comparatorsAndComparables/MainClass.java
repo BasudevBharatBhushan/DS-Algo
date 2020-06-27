@@ -5,7 +5,7 @@ public class MainClass {
 	public static void main(String[] args) {
 		
 		List<Student> students = new ArrayList<>();
-		
+//		Collections.reverse(students);
 		students.add(new Student(23,"Ram"));
 		students.add(new Student(35,"Shaym"));
 		students.add(new Student(83,"Aman"));
@@ -21,7 +21,7 @@ public class MainClass {
 		/*
 		 * Here we are going inside the students , and iterating
 		 * previously what we are doing is iterate inside the students and print its element one by one
-		 * what lambda function does here-- the "println" function which is present inside System.out, we used the student property on the student or whatever it is..
+		 * what LAMBDA function does here-- the "println" function which is present inside System.out, we used the student property on the student or whatever it is..
 		 */
 		
 		//Lets suppose the student class do not extend the comparable then we can sort it using comparator class in this way

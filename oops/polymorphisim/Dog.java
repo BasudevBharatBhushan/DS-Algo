@@ -8,3 +8,4 @@ public class Dog extends Pet{
 	     System.out.println("dog is walking");   //Method Overriding
     }
 }
+ 

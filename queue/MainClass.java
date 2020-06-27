@@ -1,6 +1,6 @@
 package queue;
 
-import java.util.LinkedList;
+import java.util.*;
 import java.util.Queue;
 
 public class MainClass {
@@ -24,6 +24,8 @@ public class MainClass {
 		//System.out.println(q.element());
  
 		//System.out.println(q.removeAll(q));
+		
+		Queue<Integer> q1=new ArrayDeque<>();
 		
 		
 	}

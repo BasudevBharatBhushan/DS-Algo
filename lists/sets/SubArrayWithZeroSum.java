@@ -30,8 +30,11 @@ public class SubArrayWithZeroSum {
 		 * TIME COMPLEXITY=o(n)
 		 * But extra space used
 		 */
-		int []a= {2,1,-3,4,2};
+	
+		
+		int a[]= {6 , -1 ,-3, 4, -2, 2, 4, 6, -12, -7};
         boolean found =false;
+	
         
         Set<Integer> set=new HashSet<>();
 		int sum=0;
@@ -41,6 +44,7 @@ public class SubArrayWithZeroSum {
 			if(set.contains(sum)) {
 				found=true;
 				break;
+				
 			}
 			
 		}

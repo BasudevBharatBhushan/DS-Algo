@@ -8,13 +8,9 @@ public class AppConfig {
 	private static AppConfig obj = null;   //initially taken as null...in case we do not need this in whole operation
 	
 	public static AppConfig getInstance() {   //Return type = AppConfig  //work of this function is to return that one instance(not multiple) or object which is made by the class
-		if(obj==null)   //so this 'if class' is used for more optimization...suppose we don't need this appConfig singleton in whole operation...then with the help of this it will not be initialized un-necessarily upon opening the app
+		if(obj==null)   //so this 'if class' is used for more optimization...suppose we don't need this appConfig singleton in whole operation...then with the help of this it will not be initialized unnecessarily upon opening the app
 			obj = new AppConfig();
 		
-		return obj;   //once initialised it will not enter into the if class anymore because it will not be null anymore
+		return obj;   //once initialized it will not enter into the if class anymore because it will not be null anymore
 	}
 }
-
-
-
-
